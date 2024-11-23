@@ -1,0 +1,44 @@
+{
+    "faqs": [
+        {
+            "question": "FAQ Question 1",
+            "answer": "FAQ Answer 1"
+        },
+        {
+            "question": "FAQ Question 2",
+            "answer": "FAQ Answer 2"
+        },
+        {
+            "question": "FAQ Question 3",
+            "answer": "FAQ Answer 3"
+        },
+        {
+            "question": "FAQ Question 4",
+            "answer": "FAQ Answer 4"
+        },
+        {
+            "question": "FAQ Question 5",
+            "answer": "FAQ Answer 5"
+        },
+        {
+            "question": "FAQ Question 6",
+            "answer": "FAQ Answer 6"
+        },
+        {
+            "question": "FAQ Question 7",
+            "answer": "FAQ Answer 7"
+        },
+        {
+            "question": "FAQ Question 8",
+            "answer": "FAQ Answer 8"
+        },
+        {
+            "question": "FAQ Question 9",
+            "answer": "FAQ Answer 9"
+        },
+        {
+            "question": "FAQ Question 10",
+            "answer": "FAQ Answer 10"
+        }
+    ]
+}
