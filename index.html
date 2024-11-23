@@ -3,87 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C++ Bootcamp for Women</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Programming Bootcamp - February</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <!-- Header Section -->
     <header>
-        <h1>C++ Bootcamp for Women</h1>
-        <p>Empowering Women in Education through Technology</p>
+        <h1>C++ Programming Bootcamp for Women Undergraduates</h1>
+        <p>Hands-on C++ Programming Bootcamp Exclusively for First-Year Women Engineering Students</p>
     </header>
 
-    <!-- About the Event -->
-    <section id="about">
-        <h2>About the Event</h2>
-        <p>
-            Join us for an exclusive 3-day educational outreach event, 
-            led by a renowned academician in CS education. This bootcamp 
-            is designed exclusively for women candidates to learn C++ from 
-            scratch and advance their coding skills. Together, we aim to 
-            support women in education and empower their future.
-        </p>
+    <section id="about-course">
+        <h2>About the Course</h2>
+        <p>This intensive 3-day bootcamp will cover foundational to advanced topics in C++, designed exclusively for women candidates aspiring to excel in the tech field.</p>
     </section>
 
-    <!-- Know Your Instructor -->
     <section id="instructor">
         <h2>Know Your Instructor</h2>
-        <div class="instructor">
-            <a href="#" target="_blank">
-                <img src="placeholder.jpg" alt="Instructor Picture">
-            </a>
-            <p><strong>Dr. [Name Placeholder]</strong></p>
-            <p>Leading academician in CS education with extensive teaching experience.</p>
-        </div>
+        <a href="https://www.cse.iitb.ac.in/~varsha/index.php" target="_blank">
+            <img src="assets/images/placeholder-instructor-image.webp" alt="Instructor Image">
+        </a>
+        <p>Prof. Varsha Apte Head</p>
+        <p>Dept. of Computer Science & Engineering,</p>
+        <p>Indian Institute of Technology Bombay</p>
     </section>
 
-    <!-- Syllabus Section -->
     <section id="syllabus">
         <h2>Syllabus</h2>
-        <button class="collapsible">View Syllabus</button>
-        <div class="content">
-            <ul>
-                <li>Day 1: Introduction to Programming and C++ Basics</li>
-                <li>Day 2: Object-Oriented Programming Concepts</li>
-                <li>Day 3: Advanced Topics and Hands-On Projects</li>
-            </ul>
+        <button id="toggle-syllabus">Show/Hide Syllabus</button>
+        <div id="syllabus-content" style="display: none;">
+            <!-- Populated dynamically using syllabus.json -->
         </div>
     </section>
 
-    <!-- FAQ Section -->
     <section id="faq">
-        <h2>FAQ</h2>
-        <button class="collapsible">What prerequisites are required?</button>
-        <div class="content">
-            <p>No prior programming experience is necessary. Just bring your enthusiasm!</p>
-        </div>
-        <button class="collapsible">What is the registration fee?</button>
-        <div class="content">
-            <p>The bootcamp is completely free for all women candidates.</p>
+        <h2>FAQs</h2>
+        <button id="toggle-faq">Show/Hide FAQs</button>
+        <div id="faq-content" style="display: none;">
+            <!-- Populated dynamically using faq.json -->
         </div>
     </section>
 
-    <!-- Register Section -->
     <section id="register">
         <h2>Ready to Join?</h2>
-        <a href="#" class="register-btn">Register Now</a>
+        <button id="register-button">Register Now</button>
     </section>
 
-    <!-- Additional Enhancement -->
-    <section id="testimonials">
-        <h2>Testimonials from Past Events</h2>
-        <blockquote>
-            "This was a life-changing experience! The sessions were 
-            insightful, and I feel more confident about coding now."
-            <footer>- Past Participant</footer>
-        </blockquote>
-    </section>
-
-    <!-- Footer -->
     <footer>
-        <p>© 2024 C++ Bootcamp for Women | Empowering Women in Technology</p>
+        <p>&copy; Dept. of CSE, IIT Bombay.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
